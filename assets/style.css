@@ -1,0 +1,884 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+#header{
+    /* position: absolute; */
+
+    width: 1200px;
+    height: 199px;
+
+    margin: 15px auto 0 ;
+
+    /* top: 15px;
+    left: 180px; */
+}
+
+#top_bar{
+    height: 80px;
+    background-color: aqua;
+}
+
+#logo{
+    max-width: 279px;
+    height: 60px;   
+}
+
+#logo img{
+    width: 100%;
+    height: 100%;
+}
+
+#navbar{
+    
+    /* position: absolute; */
+    
+    height: 34px;
+    left: 0px;
+    top: 85px;
+
+    background-color: blueviolet;
+}
+
+
+.main_container{
+    width: 1200px;
+    /* height: 2400px; */
+
+    margin:0 auto;
+}
+/* --------------------- */
+
+#banner img{
+    width: 100%;
+
+    border-radius: 8px;
+}
+
+#topSection .cards{
+    margin:30px 15px 0 15px ;
+}
+
+.top-card{
+    /* height: 90px; */
+    border-radius: 8px;
+    border: 1px solid #E0E0E0;
+}
+
+.top-card .icon{
+    width: 72px;
+    height: 72px;
+    margin: 10px 5px;
+
+}
+
+
+.top-card .top-card-content div{
+    padding-right: 15px;
+}
+
+.top-card .top-card-content p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+
+    margin:5px 3px 6px 0;
+}
+.top-card .top-card-content h6{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    /* margin-right: 145px; */
+
+}
+
+.top-card .top-card-content a{
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: right;
+
+    
+
+    text-decoration-line: underline;
+
+}
+
+.top-card .icon img{
+    width: 100%;
+}
+
+.top-card .title{
+    display: inline;
+}
+
+
+
+/* -------- */
+
+#lottery{
+
+    margin-top: 75px;
+}
+
+#lottery .lottery-title{
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+
+    text-align:start;
+    text-transform: uppercase;
+
+
+    color: #000000;
+
+    margin-bottom: 30px;
+
+}
+
+#lottery .lottery-card{
+    border: 2px solid #E0E0E0;
+    border-radius: 8px;
+}
+
+#lottery .lottery-card .mega-millions-logo{
+    width: 141px;
+    height: 80px;
+    border:2px solid #E0E0E0;
+    border-radius: 100%;
+    padding: 11px 34px;
+
+    margin-top: 5px;
+    margin-left: 28px;
+}
+
+
+#lottery .lottery-card .card-top .mega-millions-logo svg{
+    width: 72px;
+    height: 58px;
+
+}
+
+#lottery .lottery-card .card-top .group279{
+    margin-top: 15px;
+    margin-left: 23px;
+}
+
+#lottery .lottery-card .card-top .group279 div{
+    padding: 10px 0;
+    margin-bottom: 5px;
+}
+
+#lottery .lottery-card .card-top .group279 div h6{
+    display: inline;
+    margin-left: 7px;
+    
+}
+
+#lottery .lottery-card .card-top .group279 p{
+    font-family: Roboto;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    color:#13902A;
+    ;
+
+}
+
+#lottery .lottery-card .card-bottom{
+    width: 100%;
+    height: 58px;
+
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+
+    background-color: #0061A3;
+}
+
+#lottery .lottery-card .card-bottom button{
+    width: 171px;
+    height: 36px;
+
+    border-radius: 8px;
+    background-color: #F7D300;
+    border: 0px;
+
+    margin-top: 13px;
+    margin-left: 12px;
+}
+
+#lottery .lottery-card .card-bottom button span{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+#lottery .lottery-card .card-bottom .time{
+    margin-top: 20px;
+    margin-left: 40px;
+
+    color:#ffffff;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    
+}
+
+
+#lottery .lottery-card .card-bottom .time svg{
+    margin-bottom: 2px;
+}
+
+
+
+
+/* ---------------- */
+
+#lottery_online{
+    margin-top: 76px;
+}
+
+#lottery_online .lottery-online-title{
+    height: 45px;
+
+    background-color: #F30000;
+    border-radius: 8px;
+
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+
+    padding: 10.5px 0;
+    color: #ffffff;
+
+    margin-bottom: 15px;
+}
+
+/* ------------------ */
+
+.lottery-online-card{
+
+    width: 208px;
+   
+    border: 1px solid #E0E0E0;
+    border-radius: 8px;
+}
+
+.lottery-online-card .mega-millions-logo{
+    width: 94px;
+    height: 96px;
+    
+    margin: 12px auto 0;
+    
+    border: 1px solid #E0E0E0;
+    border-radius: 50%;
+    
+}
+
+.lottery-online-card .mega-millions-logo svg{
+    margin: 28px 7px;
+}
+
+.lottery-online-card .content{
+    text-align: center;
+    margin-top: 28px;
+}
+
+.lottery-online-card .content h6{
+    display: inline;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 120%;
+
+    text-transform: uppercase;
+}
+
+.lottery-online-card .content .price{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 22px;
+    margin: 8px 0;
+}
+
+.lottery-online-card .content .time{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+
+    color: #0061A3;
+}
+
+.lottery-online-card button{
+    width: 182px;
+    height: 38px;
+
+    border-radius: 8px;
+    background-color: #F7D300;
+    border: 0px;
+
+    margin: 0 13px 13px 13px;
+    
+}
+
+.lottery-online-card button span{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+/* ------------- */
+
+#cardSection{
+
+    margin-top: 114px;
+
+}
+
+
+
+.biggest-winner .title{
+    height: 45px;
+    width: 792px;
+
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+
+
+    border-radius: 8px;
+    background-color: #F30000;
+    color: #ffffff;
+
+    padding: 10px 0;
+
+}
+
+.biggest-winner .cards{
+    margin-top: 15px;
+
+    border: 1px solid #E0E0E0;
+    border-radius: 8px;
+
+    height: 386px;
+}
+
+.biggest-winner .cards .amount .lotto-image{
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.biggest-winner .cards .amount .lotto-image img{
+    width: 100%;
+    
+}
+
+.biggest-winner .cards .amount .text{
+    margin-top: 27px;
+}
+
+.biggest-winner .cards .amount span{
+    font-family: Roboto;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.biggest-winner .cards .amount p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 22px;
+
+    display: inline;
+
+    color: #0061A3;
+}
+
+.biggest-winner .cards .winners{
+    margin-top: 25px;
+    margin-left: 48px;
+}
+
+
+.biggest-winner .cards .winners .winner-image{
+    height: 206px;
+    width: 357px;
+
+
+}
+
+.biggest-winner .cards .winners .winner-image img{
+    width: 100%;
+    height: 100%;
+}
+
+.biggest-winner .cards .winners .result{
+    margin-top: 21px;
+    margin-left: 38px;
+}
+
+.biggest-winner .cards .winners .result p{
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    display: inline;
+
+    margin-right: 13px;
+}
+
+.biggest-winner .cards .winners .result .number{
+    height: 20px;
+    width: 20px;
+    padding: 3px;
+    border-radius: 50%;
+    background-color: #F30000;
+    color: #ffffff;
+
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: center;
+
+    
+
+}
+
+.biggest-winner .cards .winners .result .date{
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: right;
+
+    display: block;
+
+    margin-top: 8px;
+    margin-right: 80px;
+}
+
+.biggest-winner .cards .story{
+    margin-top: 25px;
+    margin-left: 44px;
+
+    
+}
+
+.biggest-winner .cards .story h6{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.biggest-winner .cards .story p{
+    margin-top: 15px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+
+}
+
+.biggest-winner .cards .story .story-url{
+    margin-top: 32px;
+    
+    text-align: center;
+}
+
+
+.biggest-winner .cards .story .story-url a{
+
+
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    
+}
+
+.biggest-winner .cards .story button{
+
+    margin-top: 35px;
+
+    height: 40px;
+    width: 232px;
+    left: 0px;
+    top: 0px;
+    border-radius: 8px;
+
+    border: 0;
+
+    background-color: #F7D300;
+
+}
+
+
+.latest-winner .title{
+    height: 45px;
+    width: 380px;
+
+    border-radius: 8px;
+
+    background-color: #F30000;
+
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+
+    color: #ffffff;
+
+    padding: 10px 0;
+
+}
+
+.latest-winner .paid-prizes{
+    margin-top: 15px;
+
+    text-align: center;
+
+    border: 1px solid #E0E0E0;
+    border-radius: 8px;
+}
+
+.latest-winner .paid-prizes .text{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+
+    margin: 5px 0;
+
+}
+
+.latest-winner .paid-prizes .amount{
+    font-family: Roboto;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+
+
+
+    color: #13902A;
+
+}
+
+.latest-winner .paid-prizes .ticket-count {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+
+    margin-top: 5px;
+    margin-bottom: 10px;
+
+}
+
+.latest-winner .paid-prizes .ticket-count span{
+    font-family: Roboto;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.latest-winner .winner-cards{
+    margin-top: 30px;
+}
+
+.latest-winner .winner-card{
+    height: 78px;
+
+    border: 1px solid #E0E0E0;
+    border-radius: 8px;
+
+    margin-bottom: 10px;
+
+}
+
+.latest-winner .winner-card .icon{
+    width: 75px;
+    height: 58px;
+
+    margin:10px 0 10px 15px;
+}
+
+.latest-winner .winner-card .icon img{
+    width: 100%;
+    height: 100%;
+}
+
+.latest-winner .winner-card .detail{
+    margin: 14px 0 5px 15px;
+}
+
+.latest-winner .winner-card .detail p{
+    margin-bottom: 0px;
+}
+
+.latest-winner .winner-card .detail .date{
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.latest-winner .winner-card .detail .name{
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.latest-winner .winner-card .detail .text{
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+
+    color:  #5F5F5F;
+}
+
+
+
+/* ------------- */
+
+#footer{
+    margin-top: 75px;
+}
+
+#footer .contact .live-chat .icon{
+    width: 36px;
+    height: 36px;
+
+    border-radius: 50%;
+    background-color: #25D366;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    margin: 3px 15px 3px 0;
+}
+
+#footer .contact .live-chat .icon svg{
+    width: 23px;
+    height: 23px;
+
+
+    color: #ffffff;
+    
+}   
+
+#footer .contact .live-chat .detail .title{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 0;
+
+}
+
+#footer .contact .live-chat .detail .sub-title{
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    color: #5F5F5F;
+
+    margin-bottom: 0px ;
+}
+
+#footer .contact .social .icon{
+    width: 36px;
+    height: 36px;
+    margin: 3px 5px 3px 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer .contact .social .facebook{
+    /* background-color:#1877F2 ; */
+}
+
+#footer .contact .social .facebook svg{
+    color: #1877F2;
+    width: 36px;
+    height: 36px;
+
+    border-radius: 50%;
+}
+
+#footer .contact .social .twitter{
+    background-color: #1DA1F3;
+    border-radius: 50%;
+}
+
+#footer .contact .social .twitter svg{
+    color: #ffffff;
+    width: 19px;
+    height: 15px;
+
+}
+
+.footer-content{
+    margin-top: 40px;
+}
+
+.footer-content .title{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    margin-bottom: 15px;
+
+}
+
+
+.footer-content .useful-links .list{
+    padding-left: 0;
+
+}
+
+.footer-content .useful-links .list li{
+
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    margin-bottom: 5px;
+    list-style: none;
+
+}
+
+.footer-content .smart-winners{
+
+}
+
+.footer-content .smart-winners .content{
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.footer-content .smart-winners .sub-content{
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.footer-content .payment-methods .security-trust{
+    margin-top: 30px;
+}
+
+.footer-content .payment-methods .security-trust .security-icon .ctv{
+    width: 64px;
+    height: 72px;
+
+    margin-right: 10px;
+}
+
+.footer-content .payment-methods .security-trust .security-icon .comodo{
+    width: 66px;
+    height: 55px;
+}
+
+.footer-content .payment-methods .security-trust .security-icon img{
+    width: 100%;
+    height: 100%;
+}
